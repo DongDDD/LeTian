@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C8A51445A1F2BB0D56584E /* libPods-LeTian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA56AF434A3D97C2E03100E /* libPods-LeTian.a */; };
+		C5995FFB1D3810220093FE0C /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5995FFA1D3810220093FE0C /* DetailsViewController.m */; };
+		C5B387DC1D36AC350084A4ED /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B387DB1D36AC350084A4ED /* GoodsTableViewCell.m */; };
+		C5B55F6D1D36918D0013C6AF /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F671D36918D0013C6AF /* launch.png */; };
+		C5B55F6E1D36918D0013C6AF /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F681D36918D0013C6AF /* like.png */; };
+		C5B55F6F1D36918D0013C6AF /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F691D36918D0013C6AF /* login.png */; };
+		C5B55F701D36918D0013C6AF /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F6A1D36918D0013C6AF /* me.png */; };
+		C5B55F711D36918D0013C6AF /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F6B1D36918D0013C6AF /* menu.jpg */; };
+		C5B55F721D36918D0013C6AF /* seach.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F6C1D36918D0013C6AF /* seach.png */; };
+		C5B55F741D3693840013C6AF /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F731D3693840013C6AF /* show.png */; };
+		C5B55F781D3695260013C6AF /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B55F761D3695260013C6AF /* ListViewController.m */; };
+		C5B55F7B1D36989E0013C6AF /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B55F7A1D36989E0013C6AF /* left.png */; };
+		C5FBA5FF1D35510800A43A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA5FE1D35510800A43A78 /* main.m */; };
+		C5FBA6021D35510800A43A78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6011D35510800A43A78 /* AppDelegate.m */; };
+		C5FBA6051D35510800A43A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6041D35510800A43A78 /* ViewController.m */; };
+		C5FBA6081D35510800A43A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FBA6061D35510800A43A78 /* Main.storyboard */; };
+		C5FBA60A1D35510800A43A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FBA6091D35510800A43A78 /* Assets.xcassets */; };
+		C5FBA60D1D35510900A43A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FBA60B1D35510900A43A78 /* LaunchScreen.storyboard */; };
+		C5FBA6181D35510900A43A78 /* LeTianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6171D35510900A43A78 /* LeTianTests.m */; };
+		C5FBA6231D35510900A43A78 /* LeTianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6221D35510900A43A78 /* LeTianUITests.m */; };
+		C5FBA63A1D35547500A43A78 /* showModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6391D35547500A43A78 /* showModel.m */; };
+		C5FBA6491D355EB200A43A78 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA6481D355EB200A43A78 /* LikeViewController.m */; };
+		C5FBA6511D355FAE00A43A78 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBA64F1D355FAE00A43A78 /* MeViewController.m */; };
+		C5FBA6521D355FAE00A43A78 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FBA6501D355FAE00A43A78 /* MeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5FBA6141D35510900A43A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FBA5F21D35510700A43A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FBA5F91D35510700A43A78;
+			remoteInfo = LeTian;
+		};
+		C5FBA61F1D35510900A43A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FBA5F21D35510700A43A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FBA5F91D35510700A43A78;
+			remoteInfo = LeTian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0999CBE7F0E317269FD7F0CD /* Pods-LeTian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeTian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeTian/Pods-LeTian.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADF9EE705EA1CC9D45D1ADA /* Pods-LeTian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeTian.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeTian/Pods-LeTian.release.xcconfig"; sourceTree = "<group>"; };
+		8FA56AF434A3D97C2E03100E /* libPods-LeTian.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeTian.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5995FF91D3810220093FE0C /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		C5995FFA1D3810220093FE0C /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		C5B387D41D369DFF0084A4ED /* APPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
+		C5B387D81D369DFF0084A4ED /* iosHuanWuPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosHuanWuPrefixHeader.h; sourceTree = "<group>"; };
+		C5B387D91D36A1CA0084A4ED /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C5B387DA1D36AC350084A4ED /* GoodsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewCell.h; sourceTree = "<group>"; };
+		C5B387DB1D36AC350084A4ED /* GoodsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewCell.m; sourceTree = "<group>"; };
+		C5B55F671D36918D0013C6AF /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		C5B55F681D36918D0013C6AF /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		C5B55F691D36918D0013C6AF /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		C5B55F6A1D36918D0013C6AF /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		C5B55F6B1D36918D0013C6AF /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
+		C5B55F6C1D36918D0013C6AF /* seach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seach.png; sourceTree = "<group>"; };
+		C5B55F731D3693840013C6AF /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
+		C5B55F751D3695260013C6AF /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		C5B55F761D3695260013C6AF /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		C5B55F7A1D36989E0013C6AF /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		C5FBA5FA1D35510700A43A78 /* LeTian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeTian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FBA5FE1D35510800A43A78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5FBA6001D35510800A43A78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5FBA6011D35510800A43A78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5FBA6031D35510800A43A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5FBA6041D35510800A43A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5FBA6071D35510800A43A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FBA6091D35510800A43A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FBA60C1D35510900A43A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FBA60E1D35510900A43A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FBA6131D35510900A43A78 /* LeTianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeTianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FBA6171D35510900A43A78 /* LeTianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTianTests.m; sourceTree = "<group>"; };
+		C5FBA6191D35510900A43A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FBA61E1D35510900A43A78 /* LeTianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeTianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FBA6221D35510900A43A78 /* LeTianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTianUITests.m; sourceTree = "<group>"; };
+		C5FBA6241D35510900A43A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FBA6381D35547500A43A78 /* showModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showModel.h; sourceTree = "<group>"; };
+		C5FBA6391D35547500A43A78 /* showModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showModel.m; sourceTree = "<group>"; };
+		C5FBA6471D355EB200A43A78 /* LikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		C5FBA6481D355EB200A43A78 /* LikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		C5FBA64E1D355FAE00A43A78 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		C5FBA64F1D355FAE00A43A78 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		C5FBA6501D355FAE00A43A78 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FBA5F71D35510700A43A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C8A51445A1F2BB0D56584E /* libPods-LeTian.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA6101D35510900A43A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA61B1D35510900A43A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5734E009A2E4893FF6990A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0999CBE7F0E317269FD7F0CD /* Pods-LeTian.debug.xcconfig */,
+				3ADF9EE705EA1CC9D45D1ADA /* Pods-LeTian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3CEB7B5D92F971C03829559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA56AF434A3D97C2E03100E /* libPods-LeTian.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5252BD51D382BF200EB4C47 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		C5B55F661D3690780013C6AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C5B55F7A1D36989E0013C6AF /* left.png */,
+				C5B55F731D3693840013C6AF /* show.png */,
+				C5B55F671D36918D0013C6AF /* launch.png */,
+				C5B55F681D36918D0013C6AF /* like.png */,
+				C5B55F691D36918D0013C6AF /* login.png */,
+				C5B55F6A1D36918D0013C6AF /* me.png */,
+				C5B55F6B1D36918D0013C6AF /* menu.jpg */,
+				C5B55F6C1D36918D0013C6AF /* seach.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C5FBA5F11D35510700A43A78 = {
+			isa = PBXGroup;
+			children = (
+				C5FBA5FC1D35510800A43A78 /* LeTian */,
+				C5FBA6161D35510900A43A78 /* LeTianTests */,
+				C5FBA6211D35510900A43A78 /* LeTianUITests */,
+				C5FBA5FB1D35510700A43A78 /* Products */,
+				4D5734E009A2E4893FF6990A /* Pods */,
+				C3CEB7B5D92F971C03829559 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FBA5FB1D35510700A43A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA5FA1D35510700A43A78 /* LeTian.app */,
+				C5FBA6131D35510900A43A78 /* LeTianTests.xctest */,
+				C5FBA61E1D35510900A43A78 /* LeTianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FBA5FC1D35510800A43A78 /* LeTian */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6001D35510800A43A78 /* AppDelegate.h */,
+				C5FBA6011D35510800A43A78 /* AppDelegate.m */,
+				C5B387D41D369DFF0084A4ED /* APPHeader.h */,
+				C5B387D91D36A1CA0084A4ED /* Common.h */,
+				C5B387D81D369DFF0084A4ED /* iosHuanWuPrefixHeader.h */,
+				C5252BD51D382BF200EB4C47 /* login */,
+				C5FBA6311D35531E00A43A78 /* Show */,
+				C5FBA6431D355E2300A43A78 /* Like */,
+				C5FBA64A1D355EE500A43A78 /* Me */,
+				C5FBA6031D35510800A43A78 /* ViewController.h */,
+				C5FBA6041D35510800A43A78 /* ViewController.m */,
+				C5FBA6061D35510800A43A78 /* Main.storyboard */,
+				C5FBA6091D35510800A43A78 /* Assets.xcassets */,
+				C5FBA60B1D35510900A43A78 /* LaunchScreen.storyboard */,
+				C5FBA60E1D35510900A43A78 /* Info.plist */,
+				C5B55F661D3690780013C6AF /* Images */,
+				C5FBA5FD1D35510800A43A78 /* Supporting Files */,
+			);
+			path = LeTian;
+			sourceTree = "<group>";
+		};
+		C5FBA5FD1D35510800A43A78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA5FE1D35510800A43A78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5FBA6161D35510900A43A78 /* LeTianTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6171D35510900A43A78 /* LeTianTests.m */,
+				C5FBA6191D35510900A43A78 /* Info.plist */,
+			);
+			path = LeTianTests;
+			sourceTree = "<group>";
+		};
+		C5FBA6211D35510900A43A78 /* LeTianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6221D35510900A43A78 /* LeTianUITests.m */,
+				C5FBA6241D35510900A43A78 /* Info.plist */,
+			);
+			path = LeTianUITests;
+			sourceTree = "<group>";
+		};
+		C5FBA6311D35531E00A43A78 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6351D35541C00A43A78 /* controller */,
+				C5FBA6361D35542500A43A78 /* view */,
+				C5FBA6341D3553A900A43A78 /* model */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		C5FBA6341D3553A900A43A78 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6381D35547500A43A78 /* showModel.h */,
+				C5FBA6391D35547500A43A78 /* showModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C5FBA6351D35541C00A43A78 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5B55F751D3695260013C6AF /* ListViewController.h */,
+				C5B55F761D3695260013C6AF /* ListViewController.m */,
+				C5995FF91D3810220093FE0C /* DetailsViewController.h */,
+				C5995FFA1D3810220093FE0C /* DetailsViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C5FBA6361D35542500A43A78 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C5B387DA1D36AC350084A4ED /* GoodsTableViewCell.h */,
+				C5B387DB1D36AC350084A4ED /* GoodsTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C5FBA6431D355E2300A43A78 /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6461D355E9200A43A78 /* controller */,
+				C5FBA6451D355E8700A43A78 /* view */,
+				C5FBA6441D355E5F00A43A78 /* model */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		C5FBA6441D355E5F00A43A78 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C5FBA6451D355E8700A43A78 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C5FBA6461D355E9200A43A78 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA6471D355EB200A43A78 /* LikeViewController.h */,
+				C5FBA6481D355EB200A43A78 /* LikeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C5FBA64A1D355EE500A43A78 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA64B1D355EF600A43A78 /* controller */,
+				C5FBA64C1D355F0500A43A78 /* view */,
+				C5FBA64D1D355F1100A43A78 /* model */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C5FBA64B1D355EF600A43A78 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBA64E1D355FAE00A43A78 /* MeViewController.h */,
+				C5FBA64F1D355FAE00A43A78 /* MeViewController.m */,
+				C5FBA6501D355FAE00A43A78 /* MeViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C5FBA64C1D355F0500A43A78 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C5FBA64D1D355F1100A43A78 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FBA5F91D35510700A43A78 /* LeTian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FBA6271D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTian" */;
+			buildPhases = (
+				598B0C011433B09EC450174F /* [CP] Check Pods Manifest.lock */,
+				C5FBA5F61D35510700A43A78 /* Sources */,
+				C5FBA5F71D35510700A43A78 /* Frameworks */,
+				C5FBA5F81D35510700A43A78 /* Resources */,
+				5857B9047E9C730E5FCA60A3 /* [CP] Embed Pods Frameworks */,
+				F893CE325FE6ED586BE3B0F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeTian;
+			productName = LeTian;
+			productReference = C5FBA5FA1D35510700A43A78 /* LeTian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FBA6121D35510900A43A78 /* LeTianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FBA62A1D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTianTests" */;
+			buildPhases = (
+				C5FBA60F1D35510900A43A78 /* Sources */,
+				C5FBA6101D35510900A43A78 /* Frameworks */,
+				C5FBA6111D35510900A43A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FBA6151D35510900A43A78 /* PBXTargetDependency */,
+			);
+			name = LeTianTests;
+			productName = LeTianTests;
+			productReference = C5FBA6131D35510900A43A78 /* LeTianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5FBA61D1D35510900A43A78 /* LeTianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FBA62D1D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTianUITests" */;
+			buildPhases = (
+				C5FBA61A1D35510900A43A78 /* Sources */,
+				C5FBA61B1D35510900A43A78 /* Frameworks */,
+				C5FBA61C1D35510900A43A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FBA6201D35510900A43A78 /* PBXTargetDependency */,
+			);
+			name = LeTianUITests;
+			productName = LeTianUITests;
+			productReference = C5FBA61E1D35510900A43A78 /* LeTianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FBA5F21D35510700A43A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jobs;
+				TargetAttributes = {
+					C5FBA5F91D35510700A43A78 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9N2SNV6VF6;
+					};
+					C5FBA6121D35510900A43A78 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9N2SNV6VF6;
+						TestTargetID = C5FBA5F91D35510700A43A78;
+					};
+					C5FBA61D1D35510900A43A78 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9N2SNV6VF6;
+						TestTargetID = C5FBA5F91D35510700A43A78;
+					};
+				};
+			};
+			buildConfigurationList = C5FBA5F51D35510700A43A78 /* Build configuration list for PBXProject "LeTian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FBA5F11D35510700A43A78;
+			productRefGroup = C5FBA5FB1D35510700A43A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FBA5F91D35510700A43A78 /* LeTian */,
+				C5FBA6121D35510900A43A78 /* LeTianTests */,
+				C5FBA61D1D35510900A43A78 /* LeTianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FBA5F81D35510700A43A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FBA60D1D35510900A43A78 /* LaunchScreen.storyboard in Resources */,
+				C5B55F6D1D36918D0013C6AF /* launch.png in Resources */,
+				C5B55F6E1D36918D0013C6AF /* like.png in Resources */,
+				C5B55F701D36918D0013C6AF /* me.png in Resources */,
+				C5B55F711D36918D0013C6AF /* menu.jpg in Resources */,
+				C5B55F7B1D36989E0013C6AF /* left.png in Resources */,
+				C5B55F741D3693840013C6AF /* show.png in Resources */,
+				C5FBA60A1D35510800A43A78 /* Assets.xcassets in Resources */,
+				C5B55F721D36918D0013C6AF /* seach.png in Resources */,
+				C5FBA6521D355FAE00A43A78 /* MeViewController.xib in Resources */,
+				C5FBA6081D35510800A43A78 /* Main.storyboard in Resources */,
+				C5B55F6F1D36918D0013C6AF /* login.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA6111D35510900A43A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA61C1D35510900A43A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5857B9047E9C730E5FCA60A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeTian/Pods-LeTian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		598B0C011433B09EC450174F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F893CE325FE6ED586BE3B0F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeTian/Pods-LeTian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FBA5F61D35510700A43A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FBA6491D355EB200A43A78 /* LikeViewController.m in Sources */,
+				C5FBA6511D355FAE00A43A78 /* MeViewController.m in Sources */,
+				C5B55F781D3695260013C6AF /* ListViewController.m in Sources */,
+				C5FBA63A1D35547500A43A78 /* showModel.m in Sources */,
+				C5FBA6051D35510800A43A78 /* ViewController.m in Sources */,
+				C5FBA6021D35510800A43A78 /* AppDelegate.m in Sources */,
+				C5995FFB1D3810220093FE0C /* DetailsViewController.m in Sources */,
+				C5B387DC1D36AC350084A4ED /* GoodsTableViewCell.m in Sources */,
+				C5FBA5FF1D35510800A43A78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA60F1D35510900A43A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FBA6181D35510900A43A78 /* LeTianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FBA61A1D35510900A43A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FBA6231D35510900A43A78 /* LeTianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FBA6151D35510900A43A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FBA5F91D35510700A43A78 /* LeTian */;
+			targetProxy = C5FBA6141D35510900A43A78 /* PBXContainerItemProxy */;
+		};
+		C5FBA6201D35510900A43A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FBA5F91D35510700A43A78 /* LeTian */;
+			targetProxy = C5FBA61F1D35510900A43A78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5FBA6061D35510800A43A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FBA6071D35510800A43A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FBA60B1D35510900A43A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FBA60C1D35510900A43A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FBA6251D35510900A43A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5FBA6261D35510900A43A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FBA6281D35510900A43A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0999CBE7F0E317269FD7F0CD /* Pods-LeTian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/jobs/Desktop/LeTian/LeTian/iosHuanWuPrefixHeader.h;
+				INFOPLIST_FILE = LeTian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5FBA6291D35510900A43A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADF9EE705EA1CC9D45D1ADA /* Pods-LeTian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/jobs/Desktop/LeTian/LeTian/iosHuanWuPrefixHeader.h;
+				INFOPLIST_FILE = LeTian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5FBA62B1D35510900A43A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeTianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeTian.app/LeTian";
+			};
+			name = Debug;
+		};
+		C5FBA62C1D35510900A43A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeTianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeTian.app/LeTian";
+			};
+			name = Release;
+		};
+		C5FBA62E1D35510900A43A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeTianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeTian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5FBA62F1D35510900A43A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeTianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.LeTianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeTian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FBA5F51D35510700A43A78 /* Build configuration list for PBXProject "LeTian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FBA6251D35510900A43A78 /* Debug */,
+				C5FBA6261D35510900A43A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FBA6271D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FBA6281D35510900A43A78 /* Debug */,
+				C5FBA6291D35510900A43A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FBA62A1D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FBA62B1D35510900A43A78 /* Debug */,
+				C5FBA62C1D35510900A43A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FBA62D1D35510900A43A78 /* Build configuration list for PBXNativeTarget "LeTianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FBA62E1D35510900A43A78 /* Debug */,
+				C5FBA62F1D35510900A43A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FBA5F21D35510700A43A78 /* Project object */;
+}
